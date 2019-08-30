@@ -16,9 +16,9 @@ pinMode(motorIn2,OUTPUT); //initialize the motorIn2 pin as output
 /****************************************/
 void loop()
 {
-clockwise(800); //rotate clockwise 
+clockwise(400); //rotate clockwise 
 delay(1000); //wait for a second
-counterclockwise(800); //rotate counterclockwise
+counterclockwise(400); //rotate counterclockwise
 delay(1000); //wait for a second
 }
 /****************************************/
