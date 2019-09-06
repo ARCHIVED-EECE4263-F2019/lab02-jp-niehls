@@ -16,9 +16,9 @@ pinMode(motorIn2,OUTPUT); //initialize the motorIn2 pin as output
 /****************************************/
 void loop()
 {
-clockwise(400); //rotate clockwise 
+clockwise(500); //rotate clockwise 
 delay(1000); //wait for a second
-counterclockwise(400); //rotate counterclockwise
+counterclockwise(500); //rotate counterclockwise
 delay(1000); //wait for a second
 }
 /****************************************/
@@ -31,7 +31,7 @@ analogWrite(motorIn2,0); //stop the motorIn2 pin of motor
 //The function to drive motor rotate counterclockwise
 void counterclockwise(int Speed)
 {
-analogWrite(motorIn1,0); //stop the motorIn1 pin of motor
+analogWrite(motorIn1,(0)); //stop the motorIn1 pin of motor
 analogWrite(motorIn2,Speed); //set the speed of motor
 }
 /****************************************/
